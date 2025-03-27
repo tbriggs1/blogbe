@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   db:
-    images: postgres:16
+    image: postgres:16
     environment:
       POSTGRES_DB: blogdb
       POSTGRES_USER: bloguser
