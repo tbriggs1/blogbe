@@ -154,8 +154,6 @@ CORS_ALLOW_HEADERS = [
     'x-requested-with',
 ]
 
-INSTALLED_APPS += ['corsheaders']
-
 CORS_ALLOW_CREDENTIALS = True
 
 
