@@ -137,13 +137,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",          # your local React dev server
-    "http://217.182.138.224:8000",    # direct API access
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_CREDENTIALS = True
-
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
