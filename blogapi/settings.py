@@ -30,9 +30,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '217.182.138.224',
+    'tom-briggs.com',
+    'www.tom-briggs.com',
 ]
-
-
 # Application definition
 
 INSTALLED_APPS = [
